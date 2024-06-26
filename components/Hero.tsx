@@ -1,11 +1,11 @@
-import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { WordsGenerateEffect } from "./ui/WordsEffectGenerator";
 import { Spotlight } from "./ui/Spotlight";
-import { MagicButton } from "./ui/MagicButton";
+import { MagicButton } from "./ui/Button";
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="lg:pb-20 pt-36">
       <div className="">
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -25,10 +25,10 @@ const Hero = () => {
 
       <div className='flex justify-center relative z-10 my-20'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Dynamic Web Magic with Next.js</h2>
-          <TextGenerateEffect className=" text-center text-[40px] md:text-5xl lg:text-6xl" words="Transforming Concepts into Seamless User Experiences"/>
+          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Dynamic Web Programer</h2>
+          <WordsGenerateEffect className=" text-center text-[40px] md:text-5xl lg:text-6xl" words="Transforming Today’s Ideas into Tomorrow’s Future"/>
           <p className='text-center tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            Hi, I&apos;m Lyusi, a Software Developer based in Bulgaria
+            Hi, I&apos;m Lyusi Divakov, a Software Developer based in Bulgaria
           </p>
           <a href="#about"> <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right"/> </a>
         </div>
