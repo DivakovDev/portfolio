@@ -1,5 +1,7 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
+
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -10,6 +12,7 @@ import { navItems } from "@/data";
         <FloatingNav navItems={navItems}/>
         <Hero />
         <Grid />
+        <Skills/>
       </div>
     </main>
   );
